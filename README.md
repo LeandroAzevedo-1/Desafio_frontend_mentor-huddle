@@ -8,3 +8,5 @@
 
 **Desafios** são essenciais para aprimorar habilidades e aprofundar conhecimento prático. A cada projeto, uma novas técnicas de estilização e responsividade e desenvolvida, o que é fundamental para um desenvolvedor front-end que busca excelência e inovação.
 
+<img src="./src/design/desktop-design.jpg" alt="Prévias destop">
+<img src="./src/design/mobile-design.jpg" alt="Prévias mobile">
