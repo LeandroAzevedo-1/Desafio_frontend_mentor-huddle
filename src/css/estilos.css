@@ -1,0 +1,73 @@
+html {
+    background: url(../images/bg-desktop.svg) no-repeat center center;
+    height: 100vh;
+    max-width: 100%; 
+    background-size: contain;
+    background-color:  hsl(257, 40%, 49%); 
+}
+.cabecalho {
+    padding: 20px 4.5%;
+}
+
+.conteudo-principal{
+    padding: 0px 70px 0 4.5%;
+    display: flex;
+}
+.conteudo-principal img{
+    width: 100%;
+}
+.inforcoes{
+    width: 520px;
+    margin-left: 30px;
+    margin: 4%  7%;
+}
+.inforcoes .titulo{
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.inforcoes .texto{
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.inforcoes .btn{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: #fff;
+    color:  hsl(257, 40%, 49%);
+    cursor:pointer;
+    box-shadow: 5px 5px 5px  rgba(0,0,0,0.2);;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+.inforcoes .btn:hover{
+    background-color:  #E880E8;
+    color: #fff;
+}
+.rodape{
+    display: flex;
+    justify-content:flex-end;
+    padding: 30px 70px;
+}
+.rodape .navegation{
+    display: flex;
+    margin-right: 100px;
+    gap: 50px;
+}
+.rodape .navegation a{
+    border: 1px solid #ffffff;
+    padding: 13px;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.rodape .navegation a:hover{
+    color: #E880E8;
+    border: 1px solid  #E880E8;
+} 
